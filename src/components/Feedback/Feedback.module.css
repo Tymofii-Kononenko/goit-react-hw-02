@@ -1,0 +1,13 @@
+.feedbackList {
+    padding-top: 40px;
+}
+
+ul {
+    list-style: none;
+    font-size: 36px;
+    color: white;
+}
+
+.feedbackListItem {
+    color: darkseagreen;
+}

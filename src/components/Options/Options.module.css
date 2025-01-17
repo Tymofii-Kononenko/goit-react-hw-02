@@ -1,0 +1,43 @@
+.options {
+    padding-top: 40px;
+}
+
+.button_good {
+    width: 200px;
+    height: 30px;
+    margin-right: 24px;
+    background: green;
+    color: white;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.button_neutral {
+    width: 200px;
+    height: 30px;
+    margin-right: 24px;
+    background: orange;
+    color: white;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.button_bad {
+    width: 200px;
+    height: 30px;
+    margin-right: 24px;
+    background: red;
+    color: white;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.button_reset {
+    width: 200px;
+    height: 30px;
+    margin-right: 24px;
+    background: blue;
+    color: white;
+    border-radius: 15px;
+    border-color: black;
+}

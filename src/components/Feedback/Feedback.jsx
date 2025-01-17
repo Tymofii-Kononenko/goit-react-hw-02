@@ -1,12 +1,15 @@
 import css from './Feedback.module.css';
 
-const Feedback = () => {
+const Feedback = ({ feedback, totalFeedback, positiveFeedbackPercentage }) => {
     return (
         <ul className={css.feedbackList}>
-            <li className={css.feedbackListItem}>Good: 0</li>
-            <li className={css.feedbackListItem}>Neutral: 0</li>
-            <li className={css.feedbackListItem}>Bad: 0</li>
-            <li className={css.feedbackListItem}>Total: 0</li>
+            <li className={css.feedbackListItem}>Good: {feedback.good}</li>
+            <li className={css.feedbackListItem}>Neutral: {feedback.neutral}</li>
+            <li className={css.feedbackListItem}>Bad: {feedback.bad}</li>
+            <li className={css.feedbackListItem}>Total: {totalFeedback}</li>
+            <li className={css.feedbackListItem}>
+                Positive Feedback: {positiveFeedbackPercentage}%
+            </li>
         </ul>
     );
 };
